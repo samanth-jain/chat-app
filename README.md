@@ -2,6 +2,10 @@
 
 A Spring Boot REST API for creating chat rooms, joining participants, sending messages, retrieving recent history, and receiving live room events over Server-Sent Events (SSE). Redis stores room metadata in hashes, participants in sets, and messages in lists; Redis Pub/Sub distributes new messages to application instances.
 
+## Live Link
+- Base URL: https://chat-app-4vmj.onrender.com/
+- Swagger-UI URL: https://chat-app-4vmj.onrender.com/swagger-ui/index.html
+
 ## Requirements
 
 - Java 17 or newer
